@@ -4,13 +4,13 @@ My Next.js starter template kit to build scalable web-apps.
 
 ## Checklist
 
-- [x] Next.js 13
-- [x] React
-- [x] TypeScript
-- [x] ESLint
-- [x] Prettier - format code
-- [x] Husky & Lint Staged - Run scripts before commiting
-- [x] Absolute Path Imports - Import using the `@` prefix
+- ✅ Next.js 13
+- ✅ React
+- ✅ TypeScript
+- ✅ ESLint
+- ✅ Prettier - format code
+- ✅ Husky & Lint Staged - Run scripts before commiting
+- ✅ Absolute Path Imports - Import using the `@` prefix
 - [ ] Conventional Commit Linting
 - [ ] Prebuilt Components
 - [ ] StandardJS / Any Other styleguide for typescript
