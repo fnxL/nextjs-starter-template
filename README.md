@@ -30,10 +30,8 @@ My Next.js starter template kit to build scalable web-apps.
 - [ ] Testing
   - [ ] Jest - Unit testing
   - [ ] Cypress - End-to-End testing
-- [ ]
 - [ ] [Read more docs](https://nextjs.org/docs) - Pending
 - [ ] Boiler plate code like user authentication using refreshToken & accessToken
-- [ ] Next
 - [ ] 🚀 Production-ready yet?
 
 ## Usage
