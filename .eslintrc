@@ -1,0 +1,48 @@
+{
+	"extends": ["next", "next/core-web-vitals", "prettier"],
+	"rules": {
+		"import/prefer-default-export": "off",
+		"react/jsx-filename-extension": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/no-unused-prop-types": "off",
+		"react/require-default-props": "off",
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"ts": "never",
+				"tsx": "never",
+				"js": "never",
+				"jsx": "never"
+			}
+		],
+		"jsx-a11y/anchor-is-valid": [
+			"error",
+			{
+				"components": ["Link"],
+				"specialLink": ["hrefLeft", "hrefRight"],
+				"aspects": ["invalidHref", "preferButton"]
+			}
+		]
+	},
+	"overrides": [
+		{
+			"files": "**/*.+(ts|tsx)",
+			"parser": "@typescript-eslint/parser",
+			"plugins": ["@typescript-eslint/eslint-plugin"],
+			"extends": [
+				"eslint:recommended",
+				"plugin:@typescript-eslint/recommended",
+				"plugin:@typescript-eslint/recommended-requiring-type-checking",
+				"prettier"
+			],
+			"rules": {
+				"@typescript-eslint/explicit-function-return-type": "off",
+				"@typescript-eslint/explicit-module-boundary-types": "off",
+				"no-use-before-define": [0],
+				"@typescript-eslint/no-use-before-define": [1],
+				"@typescript-eslint/no-explicit-any": "off" // add more rules here
+			}
+		}
+	]
+}
