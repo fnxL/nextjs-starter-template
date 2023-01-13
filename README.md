@@ -11,9 +11,9 @@ My Next.js starter template kit to build scalable web-apps.
 - [x] Prettier - format code
 - [x] Husky & Lint Staged - Run scripts before commiting
 - [x] Absolute Path Imports - Import using the `@` prefix
+- [x] airbnb styleguide for typescript
 - [ ] Conventional Commit Linting
 - [ ] Prebuilt Components
-- [ ] StandardJS / Any Other styleguide for typescript
 - [ ] Custom 404 Page
 - [ ] VSCode workspace settings, snippets and recommended extensions
 - [ ] Libraries that you should use
